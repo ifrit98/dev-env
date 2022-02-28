@@ -1,0 +1,36 @@
+name: dev
+channels:
+  - conda-forge
+  - defaults
+  - mro
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - jupyterlab
+  - matplotlib
+  - scikit-learn
+  - beautifulsoup4
+  - requests
+  - pytest
+  - seaborn
+  - statsmodels
+  - tensorflow
+  - pyyaml
+  - tensorflow-probability
+  - ipython
+  - flask
+  - pillow
+  - pip
+#  - psycopg2
+#  - pymongo
+  - pip:
+      - db-sqlite3
+      - pycryptodomex
+      - pytest-mpl
+      - pytest-cov
+      - ulid
+      - pynvml
+      - ulid-py
+      - soundfile
