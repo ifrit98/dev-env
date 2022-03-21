@@ -23,8 +23,7 @@ dependencies:
   - flask
   - pillow
   - pip
-#  - psycopg2
-#  - pymongo
+  - imageio
   - pip:
       - db-sqlite3
       - pycryptodomex
